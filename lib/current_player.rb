@@ -7,3 +7,12 @@ board.each do |token|
   end
   return counter
 end
+
+def current_player(board)
+  turn_count (board)
+    if counter % 2 == 0
+      #then it is 'X'
+    else 
+      #it is 'O'
+  end
+end
