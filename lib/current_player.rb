@@ -5,5 +5,5 @@ board.each do |token|
     counter += 1
     end
   end
-  counter
+  return counter
 end
